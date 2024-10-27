@@ -1,0 +1,199 @@
+.hbuz-poll-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.poll-grid-container {
+  padding: 20px;
+}
+
+.hbuz-poll-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.hbuz-poll-item:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hbuz-poll-thumbnail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.hbuz-poll-content h2 {
+  margin: 10px 0;
+}
+
+.hbuz-poll-excerpt {
+  font-size: 1em;
+  color: #555;
+}
+
+form.hbuz-poll-vote-form {
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+
+.hbuz-progress-form {
+  width: 6%;
+  margin-top: 3px;
+}
+
+.hbuz-progress-vot-option-list {
+  display: none;
+}
+
+.hbuz-progress {
+  width: 94%;
+}
+
+.progress-bar {
+  border-radius: 5px;
+  height: 23px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.hbuz-progress-option {
+  position: absolute;
+  z-index: 9;
+  color: #000000;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.progress-hbuz {
+  background-color: #87ceeb;
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.4s ease;
+  display: none;
+}
+
+.hbuz-poll-share {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.hbuz-poll-share span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.hbuz-poll-share a {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 4px 0;
+  display: inline-block;
+  margin: 0 3px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff !important;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.hbuz-poll-share a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgb(0 0 0 / 36%);
+  color: #fff;
+}
+
+.hbuz-poll-share .hbuz-poll-share-facebook {
+  background-color: #1974ec;
+}
+
+.hbuz-poll-share .hbuz-poll-share-messenger {
+  background: linear-gradient(
+    135deg,
+    #00b2ff,
+    #5865f2 25%,
+    #d62dff 50%,
+    #ff56a1 75%,
+    #ff8f5e 100%
+  );
+}
+
+.hbuz-poll-share .hbuz-poll-share-whatsapp {
+  background: #25d366;
+}
+
+.hbuz-poll-share .hbuz-poll-share-twitter {
+  background: #000;
+}
+
+.hbuz-poll-share .hbuz-poll-share-linkedin {
+  background: #0077b5;
+}
+
+.hbuz-poll-share .hbuz-poll-copy-link-icon {
+  background: #14682b;
+  position: relative;
+}
+
+a.hbuz-poll-copy-link-icon p {
+  color: #000;
+  font-size: 13px;
+  display: inline-block;
+  position: absolute;
+  bottom: 28px;
+  right: -25px;
+  width: 90px;
+}
+
+.hbuz-poll-date span i {
+  margin-right: 5px;
+}
+
+.hbuz-poll-total-votes {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hbuz-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    list-style: none;
+}
+
+.hbuz-pagination a,
+.hbuz-pagination span {
+    margin: 0 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #f5f5f5;
+    color: #333;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hbuz-pagination a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.hbuz-pagination .current {
+    background-color: #007bff;
+    color: #fff;
+    pointer-events: none;
+}
+
+.hbuz-pagination .prev i,
+.hbuz-pagination .next i {
+    margin-right: 5px;
+}
